@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Grocery Store</string>
+    <string name="currency">USD\u0020</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_terms">Terms &amp; Conditions</string>
+
+    <!-- string.xml -->
+    <string name="nav_home">Home</string>
+    <string name="nav_user">User</string>
+    <string name="nav_order">My Orders</string>
+    <string name="nav_profile">My Profile</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_about">About Us</string>
+    <string name="nav_review">Review Us</string>
+    <string name="nav_share">Share with Friends</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- activity_login.xml -->
+    <string name="et_login_phone_hint">Mobile Number (Required)</string>
+    <string name="tv_login_email">Email (Required)</string>
+    <string name="tv_login_password">Password (Required)</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_send">Send</string>
+    <string name="tv_login_note">Before continue with application you must verify your mobile number. Our system will sent you OTP code on registered mobile number</string>
+
+    <!-- activity_register.xml -->
+    <string name="tv_reg">Register</string>
+    <string name="tv_reg_name_hint">Name (Required)</string>
+    <string name="tv_reg_pincode">Pincode/Area Code/Zip (Required)</string>
+    <string name="tv_reg_socity">Society/Flat(Required)</string>
+    <string name="btn_reg_socity_choose">Choose Society...</string>
+    <string name="tv_reg_house">House Number(Required)</string>
+    <string name="btn_reg_update">Update Profile</string>
+    <string name="et_reg_search">Search Society...</string>
+    <string name="tv_reg_note">Note : service available for RAJKOT only</string>
+    <string name="tv_reg_address">Address(Required)</string>
+    <string name="et_reg_address">Complete Address</string>
+
+    <!-- fragment_cart.xml -->
+    <string name="tv_cart_title">Cart</string>
+    <string name="tv_cart_clear">Clear All Product</string>
+    <string name="tv_cart_checkout">Continue Checkout</string>
+    <string name="tv_cart_total">Total:\u0020</string>
+    <string name="tv_cart_item">Items:\u0020</string>
+    <string name="tv_cart_rs">\u0020Rs</string>
+
+    <!-- fragment_delivery_time.xml -->
+    <string name="tv_del_title">Delivery Date/Time</string>
+    <string name="tv_del_address">Delivery Address</string>
+    <string name="et_del_address_hint">Enter Delivery address..</string>
+    <string name="tv_del_continue">Continue With Time</string>
+    <string name="tv_del_date">Select delivery date</string>
+    <string name="tv_del_time">Select delivery time</string>
+    <string name="tv_del_date_time">Delivery Data/Time</string>
+    <string name="tv_total_item_amount">Total Items And Amount</string>
+    <string name="tv_total_total">Total Amount </string>
+
+    <!-- fragment_home.xml -->
+    <string name="tv_home_cat">Products</string>
+    <string name="tv_home_view">View all ></string>
+
+    <!-- row_product_rv.xml -->
+    <string name="tv_pro_add">Add</string>
+    <string name="tv_pro_update">Update</string>
+    <string name="tv_pro_price">Price per\u0020</string>
+    <string name="tv_pro_rs">\u0020Rs.\u0020</string>
+    <string name="tv_pro_total">Total: </string>
+
+    <!-- fragment_confirm_order.xml -->
+    <string name="tv_conf_order_title">Payment Details</string>
+
+    <!-- fragment_my_order_detail.xml -->
+    <string name="tv_order_cancle">Cancel Order</string>
+    <string name="tv_order_summery">Summary</string>
+    <string name="tv_order_total">Total: Rs.</string>
+    <string name="tv_order_qty">Qty</string>
+    <string name="tv_order_rs">Rs.</string>
+
+    <!-- fragment_order_thanks.xml -->
+    <string name="tv_thanks_title">Thank you for your order.</string>
+    <string name="tv_thanks_home">Continue home</string>
+    <string name="tv_thanks_order">Track my order</string>
+
+    <!-- Forgot password -->
+    <string name="forgot">Forgot Password ?</string>
+
+    <!-- Code message and concat  string -->
+    <string name="my_order">My Order</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delivery">Delivery</string>
+    <string name="delivery_date">"Delivery Date: </string>
+    <string name="please_select_date">Please select date</string>
+    <string name="no_rcord_found">No record found</string>
+    <string name="connection_time_out">Connection Time out</string>
+    <string name="add_delivery_address">Add Delivery Address</string>
+    <string name="order_now">Order Now</string>
+    <string name="payment_detail">Payment Details</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="please_enter_pincode">Please enter pincode</string>
+    <string name="receiver_mobile_number">Receiver Mobile Number(Required)</string>
+    <string name="receiver_name_req">Receiver Name(Required)</string>
+    <string name="phone_too_short">Phone Too short</string>
+    <string name="please_add_address">Please add address</string>
+    <string name="please_select_address">Please select address</string>
+    <string name="please_select_date_time">Please select date and time</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="uploading_profile_data">Uploading profile data</string>
+    <string name="cancle_order_note">Are you sure!\nyou want to cancle order ?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="thank_you">Thank you</string>
+    <string name="password_too_short">Password Too short</string>
+    <string name="invalide_email_address">Invalide Email Address</string>
+    <string name="no_internet">Sorry! Not connected to internet</string>
+    <string name="order_no">Order No.:\u0020</string>
+    <string name="pending">Pending</string>
+    <string name="confirm">Confirm</string>
+    <string name="delivered">Delivered</string>
+    <string name="cancle">Cancle</string>
+    <string name="date">Date:\u0020</string>
+    <string name="time">Time:\u0020</string>
+    <string name="search_msg">Search Vegetables, Fruit etc</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password (Required)</string>
+    <string name="new_password">New Password (Required)</string>
+    <string name="confirm_password">Confirm Password (Required)</string>
+    <string name="password_not_same">Confirm Password and New Password not same.</string>
+    <string name="delivery_charge">Delivery Charges.:\u0020</string>
+    <string name="amount">Amount:\u0020</string>
+    <string name="search_here">Search here...</string>
+    <string name="total_amount">Total Amount:\u0020</string>
+    <string name="search">Search</string>
+    <string name="enter_keyword">Please Enter Keyword</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="description">Description:</string>
+
+    <!-- row_delivery_time.xml -->
+    <string name="tv_deli_socity">Society:</string>
+    <string name="tv_deli_mobile">Mobile No.:</string>
+    <string name="tv_deli_pin">Pincode:</string>
+
+    <!-- delivery_payment_detail_fragment.java -->
+    <string name="tv_deli_pay_ontime">On time :\u0020</string>
+    <string name="tv_deli_pay_address">Address:\u0020</string>
+
+    <!-- delivery_get_address_adapter.java -->
+    <string name="reciver_name">Receiver Name:\u0020</string>
+    <string name="reciver_mobile">Receiver Mobile No.:\u0020</string>
+    <string name="pincode">Pincode:\u0020</string>
+    <string name="house_no">House No.:\u0020</string>
+    <string name="socity">Society:\u0020</string>
+
+</resources>

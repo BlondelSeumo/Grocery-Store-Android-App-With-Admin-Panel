@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/space_10">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_pro_img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space_10"
+                android:layout_marginTop="@dimen/space_10"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="@color/gray"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/tv_pro_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_reg_name_hint"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_pro_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tv_pro_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/et_login_phone_hint"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_pro_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="15" />
+
+            <TextView
+                android:id="@+id/tv_pro_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_login_email"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_pro_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:ems="10"
+                android:editable="false"/>
+
+            <!--<TextView
+                            android:id="@+id/tv_pro_socity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tv_reg_socity"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/btn_pro_socity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/xml_textbox_bg"
+                            android:drawableEnd="@drawable/arrow_right"
+                            android:drawableRight="@drawable/arrow_right"
+                            android:gravity="start|center_vertical"
+                            android:text="@string/btn_reg_socity_choose"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/tv_pro_home"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tv_reg_house"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/et_pro_home"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/space_5"
+                            android:background="@drawable/xml_textbox_bg"
+                            android:inputType="text" />-->
+
+            <Button
+                android:id="@+id/btn_pro_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/xml_button"
+                android:text="@string/btn_reg_update"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

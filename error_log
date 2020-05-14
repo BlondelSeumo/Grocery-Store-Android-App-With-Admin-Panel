@@ -1,0 +1,18 @@
+[10-Feb-2017 19:00:17 Asia/Kolkata] PHP Fatal error:  Call to a member function data_update() on a non-object in /home/iclauncher/public_html/rabbitapp/application/controllers/Api.php on line 115
+[10-Feb-2017 19:04:17 Asia/Kolkata] PHP Fatal error:  Call to a member function data_update() on a non-object in /home/iclauncher/public_html/rabbitapp/application/controllers/Api.php on line 117
+[13-Feb-2017 11:21:39 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/iclauncher/public_html/rabbitapp/application/controllers/Api.php on line 381
+[13-Feb-2017 11:21:47 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/iclauncher/public_html/rabbitapp/application/controllers/Api.php on line 381
+[13-Feb-2017 11:22:02 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/iclauncher/public_html/rabbitapp/application/controllers/Api.php on line 381
+[13-Feb-2017 11:23:01 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/iclauncher/public_html/rabbitapp/application/controllers/Api.php on line 381
+[01-May-2017 16:23:59 Asia/Riyadh] PHP Fatal error:  Call to undefined method Product_model::get_leftstock() in /home/iclauncher/public_html/rabbitapp/application/controllers/Admin.php on line 969
+[02-May-2017 16:07:45 Asia/Riyadh] PHP Fatal error:  Call to a member function row() on a non-object in /home/iclauncher/public_html/rabbitapp/application/controllers/Admin.php on line 181
+[15-May-2017 10:27:52 Asia/Riyadh] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::results() in /home/iclauncher/public_html/rabbitapp/application/controllers/Admin.php on line 1045
+[28-Jun-2017 17:03:28 Asia/Kolkata] PHP Fatal error:  Call to a member function row() on a non-object in /home/iclauncher/public_html/grocery/application/controllers/Api.php on line 164
+[12-Jul-2017 16:16:21 Asia/Riyadh] PHP Fatal error:  Call to undefined function _is_admin_user_login() in /home/iclauncher/public_html/grocery/application/controllers/Admin.php on line 1247
+[13-Jul-2017 17:23:42 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::row() in /home/iclauncher/public_html/grocery/application/controllers/Api.php on line 155
+[16-Jul-2017 08:34:08 Asia/Riyadh] PHP Parse error:  syntax error, unexpected 'Rs' (T_STRING) in /home/iclauncher/public_html/grocery/application/views/admin/orders/orderdetails.php on line 110
+[16-Jul-2017 08:35:09 Asia/Riyadh] PHP Parse error:  syntax error, unexpected 'Rs' (T_STRING), expecting ',' or ';' in /home/iclauncher/public_html/grocery/application/views/admin/orders/orderdetails.php on line 118
+[16-Jul-2017 08:35:30 Asia/Riyadh] PHP Parse error:  syntax error, unexpected 'Rs' (T_STRING), expecting ',' or ';' in /home/iclauncher/public_html/grocery/application/views/admin/orders/orderdetails.php on line 118
+[16-Jul-2017 08:49:50 Asia/Riyadh] PHP Fatal error:  Call to undefined method CI_Config::line() in /home/iclauncher/public_html/grocery/application/views/admin/orders/orderdetails.php on line 118
+[16-Jul-2017 08:49:56 Asia/Riyadh] PHP Fatal error:  Call to undefined method CI_Config::line() in /home/iclauncher/public_html/grocery/application/views/admin/orders/orderdetails.php on line 118
+[16-Jul-2017 08:50:16 Asia/Riyadh] PHP Fatal error:  Call to undefined method CI_Config::line() in /home/iclauncher/public_html/grocery/application/views/admin/orders/orderdetails.php on line 118

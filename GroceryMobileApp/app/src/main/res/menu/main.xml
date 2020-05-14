@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_here"
+        app:showAsAction="ifRoom" />
+
+    <!--<item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_here"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />-->
+
+    <item
+        android:id="@+id/action_cart"
+        android:actionLayout="@layout/menu_cart_layout"
+        android:icon="@drawable/cart"
+        android:title="@string/nav_home"
+        app:actionLayout="@layout/menu_cart_layout"
+        app:icon="@drawable/cart"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_change_password"
+        android:icon="@drawable/ic_change_password"
+        android:title="@string/change_password"
+        app:showAsAction="ifRoom" />
+
+</menu>

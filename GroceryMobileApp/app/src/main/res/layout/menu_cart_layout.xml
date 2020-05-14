@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@android:style/Widget.ActionButton"
+    android:layout_width="58dp"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:gravity="end|top"
+    android:orientation="vertical"
+    android:padding="@dimen/space_5">
+
+    <ImageView
+        android:id="@+id/hotlist_bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:contentDescription="bell"
+        android:gravity="center"
+        android:src="@drawable/cart" />
+
+    <TextView
+        android:id="@+id/actionbar_notifcation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/xml_budget"
+        android:padding="4dp"
+        android:text="99"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+</RelativeLayout>
